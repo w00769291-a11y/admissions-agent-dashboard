@@ -408,6 +408,10 @@ nav a { transition: background .25s, color .25s, border-color .25s; }
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .mat-m-letter {
+    animation: none;
+  }
+
   .portal-sidebar,
   .portal-sidebar.is-open {
     transform: none;
