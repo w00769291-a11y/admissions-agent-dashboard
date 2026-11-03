@@ -250,10 +250,14 @@ export function AppShell({ title, children }: { title: string; children: ReactNo
           </div>
         </nav>
 
-        <div className="portal-upgrade-card mx-3 mb-3 p-4">
-          <Sparkles className="size-5" />
-          <p className="mt-2 text-sm font-semibold">Upgrade to Pro</p>
-          <p className="portal-drawer-subtle mt-1 text-xs">Unlock analytics &amp; multi-branch.</p>
+        <div className="portal-upgrade-card mx-3 mb-3 flex items-center gap-3 p-4">
+          <div className="grid size-11 shrink-0 place-items-center rounded-full bg-primary-gradient text-primary-foreground shadow-glow">
+            <User className="size-5" />
+          </div>
+          <div className="min-w-0 leading-tight">
+            <p className="truncate text-sm font-bold">Praneeth</p>
+            <p className="portal-drawer-subtle mt-0.5 truncate text-xs">Administrator</p>
+          </div>
         </div>
       </aside>
 
