@@ -2,7 +2,7 @@ import { Link, useRouter, useRouterState } from "@tanstack/react-router";
 import { useCallback, useEffect, useRef, useState, type ReactNode } from "react";
 import {
   LayoutDashboard, Megaphone, UserPlus, Wallet, GraduationCap, Users, Briefcase, Settings,
-  Search, Bell, Plus, TrendingUp, ChevronRight, HelpCircle, Sparkles, MoreHorizontal, X, User,
+  Search, Bell, Plus, TrendingUp, ChevronRight, HelpCircle, Sparkles, MoreHorizontal, X, User, Save,
   BarChart3, Activity, CircleDot, ShieldCheck, Landmark,
 } from "lucide-react";
 import { Area, AreaChart, CartesianGrid, Cell, Pie, PieChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
