@@ -384,6 +384,29 @@ nav a { transition: background .25s, color .25s, border-color .25s; }
   transform: scale(0.96);
 }
 
+/* Animated "M" letter on the rolled-mat trigger */
+.mat-m-letter {
+  fill: #fffafc;
+  paint-order: stroke;
+  stroke: #702f42;
+  stroke-width: 1.6px;
+  filter: drop-shadow(0 0 3px rgb(255 218 150 / 90%));
+  animation: mat-m-pulse 2.2s ease-in-out infinite;
+  transform-origin: 29.5px 25px;
+}
+
+@keyframes mat-m-pulse {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+    filter: drop-shadow(0 0 2px rgb(255 218 150 / 60%));
+  }
+  50% {
+    transform: translateY(-2.2px) scale(1.12);
+    filter: drop-shadow(0 0 6px rgb(255 218 150 / 95%));
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .portal-sidebar,
   .portal-sidebar.is-open {
