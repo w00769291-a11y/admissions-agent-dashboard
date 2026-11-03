@@ -73,6 +73,7 @@ function RolledMatIcon() {
         <path d="M18 13.4h10" stroke="#fff" strokeLinecap="round" strokeOpacity=".3" strokeWidth="1" />
       </g>
       <path d="M13 36c6 .7 13 .7 20 0" fill="none" stroke="#c65b73" strokeLinecap="round" strokeOpacity=".85" strokeWidth="1.3" />
+      <text x="29.5" y="29.5" textAnchor="middle" className="mat-m-letter" fontSize="13.5" fontWeight="800" letterSpacing=".5">M</text>
     </svg>
   );
 }
