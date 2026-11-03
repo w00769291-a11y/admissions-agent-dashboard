@@ -286,13 +286,9 @@ export function AppShell({ title, children }: { title: string; children: ReactNo
               <span className="absolute right-1.5 top-1.5 size-2 rounded-full bg-destructive ring-2 ring-card" />
             </button>
             <div className="mx-2 h-6 w-px bg-border" />
-            <div className="flex items-center gap-2">
-              <div className="grid size-9 place-items-center rounded-full bg-primary-gradient text-xs font-bold text-primary-foreground">PR</div>
-              <div className="hidden leading-tight lg:block">
-                <p className="text-sm font-semibold">Praneeth</p>
-                <p className="text-xs text-muted-foreground">Administrator</p>
-              </div>
-            </div>
+            <button className="flex items-center gap-1.5 rounded-lg bg-primary-gradient px-4 py-2 text-sm font-semibold text-primary-foreground shadow-glow transition hover:opacity-95">
+              <Save className="size-4" />Save
+            </button>
           </div>
         </header>
         <main key={title} className="page-in relative z-10 flex-1 p-6 lg:p-8">
